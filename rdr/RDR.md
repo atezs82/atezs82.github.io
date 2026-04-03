@@ -47,3 +47,7 @@ This is worth the overhead when:
 It is probably not worth it for short-lived projects, solo work with continuous context, or domains where the experiment tracker already captures sufficient reasoning in run descriptions.
 
 The discipline cost is real. The template should stay short enough that filling it in takes two minutes, not twenty. If entries start requiring an "alternatives considered" section and a consequences breakdown, the overhead will kill the habit.
+
+# Acknowledgements
+
+Many thanks to [Patrik Egyed](https://www.linkedin.com/in/pregnor) for the original idea back in 2018 when we worked together!
