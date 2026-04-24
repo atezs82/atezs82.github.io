@@ -23,11 +23,11 @@ A minimal entry looks like this:
 
 **Date:** 2025-03
 
-**What we tried:** SMOTE oversampling to address class imbalance in the training set.
+**Tried:** SMOTE oversampling to address class imbalance in the training set.
 
-**What we found:** Validation AUC improved slightly (+0.02) but calibration degraded significantly. Oversampled minority class examples were synthetic and didn't reflect real distribution tails.
+**Found:** Validation AUC improved slightly (+0.02) but calibration degraded significantly. Oversampled minority class examples were synthetic and didn't reflect real distribution tails.
 
-**Why we moved on:** Class-weighted loss achieved comparable AUC with better calibration and no data leakage risk. SMOTE is off the table unless we revisit calibration requirements.
+**Outcome:** Class-weighted loss achieved comparable AUC with better calibration and no data leakage risk. SMOTE is off the table unless we revisit calibration requirements.
 ```
 
 That format is deliberately minimal — but it becomes especially useful in LLM-assisted workflows. Experiment trackers don't help an LLM agent avoid repeating abandoned directions, because the agent doesn't query W&B before suggesting an approach — it works from what's in context. A markdown file explicitly included in the project context does.
@@ -50,4 +50,4 @@ The discipline cost is real. The template should stay short enough that filling 
 
 # Acknowledgements
 
-Many thanks to [Patrik Egyed](https://www.linkedin.com/in/pregnor) for the original idea back in 2018 when we worked together!
+- Many thanks to [Patrik Egyed](https://www.linkedin.com/in/pregnor) for the original idea back in 2018 when we worked together!
