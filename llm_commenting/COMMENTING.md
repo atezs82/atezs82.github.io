@@ -56,4 +56,4 @@ Here you can observe the research discussion moving forward, but it involved cop
 
 After running into this friction repeatedly, I built a small, locally running web UI that lets users comment on individual parts of Claude's responses in an organized way. Whether LLM clients will ever support this natively is an open question, but until then, this lightweight wrapper might be useful.
 
-You can check it out here: https://github.com/atezs82/yacc. 
+You can check it out here: [https://github.com/atezs82/yacc](https://github.com/atezs82/yacc). 
